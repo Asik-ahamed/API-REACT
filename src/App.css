@@ -1,0 +1,52 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .hero{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero table {
+   
+    justify-content: center;
+    text-align: center;
+   margin-left: 27em;
+} 
+
+.container{
+    justify-content: center;
+    text-align: center;
+}
+
+.container button{
+    padding: 10px;
+    margin: 5px;
+    background-color: grey;
+    transition: 1s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.container button:hover{
+   background-color: lightblue;
+}
+
+.super{
+    margin-top: 2em;
+    justify-content: center;
+    text-align: center;
+}
+
+.super button {
+    padding: 20px;
+}
+
+.super table{
+    margin-left: 27em;
+}
