@@ -4,6 +4,7 @@ import './App.css'
 import useCounter from './usecounter.jsx'
 import { useRef, useReducer, useEffect } from 'react'
 import SingleUser from './SingleUser.jsx'
+import CreateUser from './CreateUser.jsx'
 
 
 const reducer = (state, action) => {
@@ -69,6 +70,7 @@ const App = () => {
 
         <Posts/>
         <SingleUser/>
+        <CreateUser/>
     </div>
   )
 }
